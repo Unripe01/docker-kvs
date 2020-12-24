@@ -5,7 +5,7 @@ pipeline {
     // mujirushi
     BUILD_HOST = "root@172.26.64.115"
     // sent os A
-    PROD_HOST = "root@172.26.66.193
+    PROD_HOST = "root@172.26.66.193"
     BUILD_TIMESTAMP = sh(script: "date +%Y%m%d-%H%M%S", returnStdout: true).trim()
   }
   stages {
